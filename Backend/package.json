@@ -4,10 +4,7 @@
   "description": "Backend api for SMS web application",
   "private": true,
   "scripts": {
-    "start": "node -r dotenv/config ./build/index.js",
-    "build": "tsc --build",
-    "dev": "nodemon  --config nodemon.json -r dotenv/config src/index.ts",
-    "test": "echo \"Error: no test specified\""
+    "start": "node -r dotenv/config ./src/index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
